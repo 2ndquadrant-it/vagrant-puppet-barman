@@ -1,0 +1,44 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-apache (1.3.0)
+      puppetlabs-concat (>= 1.1.1)
+      puppetlabs-stdlib (>= 2.4.0)
+    puppetlabs-apt (1.7.0)
+      puppetlabs-stdlib (>= 2.2.1)
+    puppetlabs-concat (1.2.0)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-firewall (1.4.0)
+    puppetlabs-inifile (1.2.0)
+    puppetlabs-postgresql (4.2.0)
+      puppetlabs-apt (< 2.0.0, >= 1.1.0)
+      puppetlabs-concat (< 2.0.0, >= 1.1.0)
+      puppetlabs-stdlib (~> 4.0)
+    puppetlabs-puppetdb (4.1.0)
+      puppetlabs-firewall (< 2.0.0, >= 1.1.3)
+      puppetlabs-inifile (< 2.0.0, >= 1.1.3)
+      puppetlabs-postgresql (< 5.0.0, >= 4.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.2.2)
+    puppetlabs-stdlib (4.5.1)
+    stephenrjohnson-puppet (1.3.1)
+      puppetlabs-apache (>= 1.0.1)
+      puppetlabs-apt (>= 1.1.0)
+      puppetlabs-inifile (>= 1.0.0)
+      puppetlabs-puppetdb (>= 2.0.0)
+      puppetlabs-stdlib (>= 3.0.0)
+
+GIT
+  remote: git://github.com/2ndquadrant-it/puppet-barman.git
+  ref: master
+  sha: a76bc0ed12efe0597d5a848acab39386f43844de
+  specs:
+    it2ndq-barman (0.2.1)
+      puppetlabs-postgresql (< 5.0.0, >= 4.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+
+DEPENDENCIES
+  it2ndq-barman (>= 0)
+  puppetlabs-postgresql (>= 0)
+  puppetlabs-puppetdb (>= 0)
+  stephenrjohnson-puppet (>= 0)
+
