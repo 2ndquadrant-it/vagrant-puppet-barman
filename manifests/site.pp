@@ -113,9 +113,9 @@ node pg {
 
   # Export the parameters required by Barman
   class { 'barman::postgres':
-    retention_policy        => 'RECOVERY WINDOW OF 1 WEEKS',
+    retention_policy        => 'RECOVERY WINDOW OF 1 WEEK',
     minimum_redundancy      => 1,
-    last_backup_maximum_age => '2 WEEKS',
+    last_backup_maximum_age => '1 WEEK',
     reuse_backup            => 'link',
     backup_hour             => 1,
     backup_minute           => 0,
