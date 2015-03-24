@@ -73,8 +73,9 @@ node backup {
   }->
 
   class { 'barman':
-    autoconfigure      => true,
-    exported_ipaddress => '192.168.56.222/32',
+    autoconfigure       => true,
+    exported_ipaddress  => '192.168.56.222/32',
+    manage_package_repo => true,
   }
 
 }
