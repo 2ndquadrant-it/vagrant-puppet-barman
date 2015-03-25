@@ -1,5 +1,5 @@
 forge 'https://forgeapi.puppetlabs.com'
-mod 'it2ndq/barman', :git => 'git://github.com/2ndquadrant-it/puppet-barman.git'
+mod 'it2ndq/barman'
 mod 'puppetlabs/postgresql'
 mod 'puppetlabs/puppetdb'
 mod 'stephenrjohnson/puppet'
