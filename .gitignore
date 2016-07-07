@@ -1,4 +1,4 @@
 .librarian/
 .tmp/
-modules/
+environments/production/modules/
 .vagrant/

@@ -13,9 +13,10 @@ a Barman server taking regular backups of a PostgreSQL server.
 
 ## Instructions
 
-In the project directory, install the required Puppet modules running:
+From the project directory, install the required Puppet modules running:
 
 ```
+$ cd environments/production/
 $ librarian-puppet install --verbose
 ```
 
@@ -26,3 +27,4 @@ $ vagrant up
 $ vagrant provision
 $ vagrant provision
 ```
+

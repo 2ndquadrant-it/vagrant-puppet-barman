@@ -1,5 +1,0 @@
-forge 'https://forgeapi.puppetlabs.com'
-mod 'it2ndq/barman'
-mod 'puppetlabs/postgresql'
-mod 'puppetlabs/puppetdb'
-mod 'stephenrjohnson/puppet'
