@@ -25,9 +25,6 @@ Vagrant.configure("2") do |config|
       local.vm.network :private_network, ip: cfg[:ip]
       family = 'ubuntu'
       bootstrap_url = 'https://raw.github.com/hashicorp/puppet-bootstrap/master/' + family + '.sh'
-      config.vm.provider "virtualbox" do |vb|
-        vb.name = name.to_s
-      end
 
       # Run puppet-bootstrap and enable the Puppet agent
       local.vm.provision :shell, :inline => <<-eos
