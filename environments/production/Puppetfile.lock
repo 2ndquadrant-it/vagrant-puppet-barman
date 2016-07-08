@@ -20,8 +20,8 @@ FORGE
 
 GIT
   remote: https://github.com/2ndquadrant-it/puppet-barman.git
-  ref: dev/29
-  sha: 348eb3f837638fb26d554a1b9d84f926ca9d2c85
+  ref: master
+  sha: cddd2fa6685cb66fa62a9208e736ac763b6babe2
   specs:
     it2ndq-barman (1.0.0)
       puppetlabs-postgresql (< 5.0.0, >= 4.0.0)
